@@ -1,0 +1,38 @@
+package Classification;
+
+public class Abilities extends Computers{
+	private String desc;
+	private String ability;
+	private String example;
+	
+	public String getDesc() {
+		return desc;
+	}
+	
+	public void setDesc(String desc) {
+		this.desc = desc;
+	}
+	
+	public String getAbility() {
+		return ability;
+	}
+	
+	public void setAbility(String ability) {
+		this.ability = ability;
+	}
+	
+	public String getExample() {
+		return example;
+	}
+	
+	public void setExample(String example) {
+		this.example = example;
+	}
+	
+	public void toPrint() {
+		super.toPrint();
+		System.out.println("?> Ability = " + this.ability);
+		System.out.println("?> Description = " + this.desc);
+		System.out.println("?> Example = " + this.example);
+	}
+}
