@@ -1,0 +1,26 @@
+package Classification;
+
+public class Computers {
+	private String basedon;
+	
+	public String getBasedOn() {
+		return basedon;
+	}
+	
+	public void setBasedOn(String basedon) {
+		this.basedon = basedon;
+	}
+	
+	public String getDesc() {
+		return desc;
+	}
+	
+	public void setDesc(String desc) {
+		this.desc = desc;
+	}
+	
+	public void toPrint() {
+		System.out.println("?> Classified based on = " + this.basedon);
+		System.out.println("?> Description = " + this.desc);
+	}
+}

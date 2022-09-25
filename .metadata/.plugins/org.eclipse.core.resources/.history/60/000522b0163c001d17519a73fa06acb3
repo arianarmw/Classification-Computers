@@ -1,0 +1,17 @@
+package Classification;
+
+public class Registered {
+	private String registered;
+	
+	public String getRegistered() {
+		return registered;
+	}
+	
+	public void setRegistered(String registered) {
+		this.registered = registered;
+	}
+	
+	public void toPrint() {
+		System.out.println("Registered In OJK = Yes" + this.registered);
+	}
+}

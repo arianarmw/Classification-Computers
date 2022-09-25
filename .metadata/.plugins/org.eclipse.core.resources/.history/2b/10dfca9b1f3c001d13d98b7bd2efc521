@@ -1,0 +1,28 @@
+package Classification;
+
+public class Usage {
+	private String usage;
+	private String example;
+	
+	public String getUsage() {
+		return usage;
+	}
+	
+	public void setUsage(String usage) {
+		this.usage = usage;
+	}
+	
+	public String getExample() {
+		return example;
+	}
+	
+	public void setExample(String example) {
+		this.example = example;
+	}
+	
+	public void toPrint() {
+		super.toPrint();
+		System.out.println("?> Type = " + this.usage);
+		System.out.println("?> Example = " + this.example);
+	}
+}

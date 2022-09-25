@@ -1,0 +1,20 @@
+package Classification;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Registered x = new Registered();
+		x.setName("Dana");
+		x.setStatus("Active");
+		x.setRegistered("Yes");
+		x.toPrint();
+		
+		Unregistered y = new Unregistered();
+		y.setName("OneDompet");
+		y.setStatus("Active");
+		y.setUnregistered("No");
+		y.toPrint();
+	}
+
+}

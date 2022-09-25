@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+D:\OOP_Teori_5\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+516593457.index
+2232569025.index
+3011209426.index

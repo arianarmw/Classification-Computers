@@ -1,0 +1,16 @@
+package Classification;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ProcessedData x = new ProcessedData();
+		System.out.println("\t--- COMPUTERS ---\n");
+		x.setBasedOn("Processed Data");
+		x.setDesc("Lorem Ipsum....");
+		x.setProcData("Analog");
+		x.setExample("Seismometer, Voltmeter");
+		x.toPrint();
+	}
+
+}

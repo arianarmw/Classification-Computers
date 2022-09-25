@@ -1,0 +1,30 @@
+package Classification;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ProcessedData x = new ProcessedData();
+		System.out.println("\t--- COMPUTERS ---\n");
+		x.setBasedOn("Processed Data");
+		x.setDesc("Lorem Ipsum....");
+		x.setProcData("Analog");
+		x.setExample("Seismometer, Voltmeter");
+		x.toPrint();
+		
+		Usage y = new Usage();
+		y.setBasedOn("\nUsage");
+		y.setDesc("Lorem Ipsum....");
+		y.setUsage("Special Purpose Computer");
+		y.setExample("Cashier Machine");
+		y.toPrint();
+		
+		Abilities z = new Abilities();
+		z.setBasedOn("\nThe Ability Scale");
+		z.setDesc("Lorem Ipsum....");
+		z.setAbility("Small Scale Computer");
+		z.setExample("PC, Laptop, Tablet");
+		z.toPrint();
+	}
+
+}

@@ -1,0 +1,18 @@
+package Classification;
+
+public class Unregistered extends eWallet{
+	private String unregistered;
+	
+	public String getUnregistered() {
+		return unregistered;
+	}
+	
+	public void setUnregistered(String unregistered) {
+		this.unregistered = unregistered;
+	}
+	
+	public void toPrint() {
+		super.toPrint();
+		System.out.println("Registered In OJK = " + this.registered);
+	}
+}

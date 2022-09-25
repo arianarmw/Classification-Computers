@@ -1,0 +1,20 @@
+package Classification;
+
+public class ProcessedData extends Computers {
+	private String procdata;
+	private String example;
+	
+	public String getProcData() {
+		return procdata;
+	}
+	
+	public void setProcData(String procdata) {
+		this.procdata = procdata;
+	}
+	
+	public void toPrint() {
+		super.toPrint();
+		System.out.println("?> Type = " + this.procdata);
+		System.out.println("?> Type = " + this.example);
+	}
+}

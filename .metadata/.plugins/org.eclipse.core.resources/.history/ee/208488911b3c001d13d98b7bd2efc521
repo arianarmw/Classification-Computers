@@ -1,0 +1,27 @@
+package Classification;
+
+public class Computers {
+	private String type;
+	private String computerName;
+	
+	public String getType() {
+		return type;
+	}
+	
+	public void setType(String name) {
+		this.type = type;
+	}
+	
+	public String getComputerName() {
+		return computerName;
+	}
+	
+	public void setComputerName(String computerName) {
+		this.computerName = computerName;
+	}
+	
+	public void toPrint() {
+		System.out.println("Name = " + this.name);
+		System.out.println("Status = " + this.status);
+	}
+}

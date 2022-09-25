@@ -1,0 +1,14 @@
+package Classification;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		eWallet x = new eWallet();
+		x.setName("Dana");
+		x.setStatus("Active");
+		x.setRegistered("Yes");
+		x.toPrint();
+	}
+
+}

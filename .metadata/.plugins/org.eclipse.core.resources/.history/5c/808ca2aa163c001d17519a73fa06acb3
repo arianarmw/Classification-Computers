@@ -1,0 +1,13 @@
+package Classification;
+
+public class Registered {
+	private String registered;
+	
+	public String getRegistered() {
+		return registered;
+	}
+	
+	public void setRegistered(String registered) {
+		this.registered = registered;
+	}
+}

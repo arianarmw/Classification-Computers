@@ -1,0 +1,14 @@
+package Classification;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Computers x = new Computers();
+		System.out.println("--- COMPUTERS ---\n");
+		x.setBasedOn("Processed Data");
+		x.setDesc("Lorem Ipsum....");
+		x.toPrint();
+	}
+
+}
